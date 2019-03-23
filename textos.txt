@@ -1,0 +1,31 @@
+ <p> Nuestra amplia variedad de servicios de mantenimiento y soporte técnico han sido diseñados para brindarle asistencia técnica profesional y personalizada, ayudando a proteger su entorno tecnológico. </p>
+ <p> Solo traiga su computadora a nosotros; o si prefiere llámenos y nosotros iremos a su oficina o casa.                    
+                    Conozca nuestros diferentes tipos de servicios a través de los cuales podemos ayudarlo dando soporte a sus necesidades a fin de lograr una disponibilidad continua de sus sistemas:
+                <p> Mantenimiento de computadoras y periféricos: Reconfiguración del sistema operativo para que su computadora ya no presente fallas, formateo de su disco duro, reparación de impresoras y discos duros, etc.</p>
+                <p> Limpieza Física de la computadora: una limpieza total de la computadora, dejando limpio físicamente cada uno de sus componentes.</p>
+                <p> Instalación y configuración de software: Instalamos software como sistemas operativos, antivirus, driver, navegadores web, etc. </p>
+                <p> Instalación y configuración de componentes internos o externos: Realizamos la instalación y configuración de componentes internos tales como tarjetas madre, de video, de sonido, de Red, fax-modem, cd-rom, fuentes de poder, ventiladores, discos duros, memorias y en componentes externos como cámaras de video, impresoras, scanners, etc.</p> 
+                <p> Detección y eliminación de virus: detección y eliminación de cualquier virus existente en su computadora.</p>
+                <p> Respaldo de Información (Backups): Contara con un respaldo de su información para prevenir posibles pérdidas. Sí por alguna razón ha perdido su información y desea recuperarla, nosotros le ayudamos con el siguiente servicio de recuperación de datos.</p>
+                <p> Repotenciación de su computadora: Si su computadora se ha quedado obsoleta, o simplemente quiere aumentar su potencia y velocidad, nosotros la repotenciamos de acuerdo a sus necesidades. Para ver algunos de nuestros productos haga clic en: venta de pcs, accesorios y suministros o visítenos para darle una propuesta personalizada.</p>
+           
+               <h2>NO ESPERES A QUE LA COMPUTADORA FALLE, CONTRATA UN MANTENIMIENTO PREVENTIVO.</h2>
+                <p> Aunque ningún equipo está libre de sufrir algún problema de este tipo, hay acciones que pueden ir encaminadas a tratar de preservarlos, por eso contar con una empresa de mantenimiento de computadoras en Santo Domingo que haga un plan preventivo puede ahorrarte muchos dolores de cabeza y evitar que pierdas tiempo y dinero. </p>
+                <p> Nuestro servicio de mantenimiento de computadoras busca reducir de forma significativa las posibilidades de que su trabajo se detenga.</p>
+            </div> 
+
+
+
+La razón fundamental del uso de redes es compartir el enlace a internet para no incrementar el costo de conexión. También la de compartir muchas otras funciones, archivos y dispositivos entre las computadoras conectadas.</p>
+                <p>Nuestros servicios van desde la instalación física de la red ya sea alámbrica o inalámbrica, pasando por su implementación y puesta en marcha del proyecto.                    
+                    Además contamos con stock de productos y suministros que su red pudiese necesitar, ya sea para la implementación, ampliación o reparación.
+                    Contáctenos para darles un asesoramiento.</p>
+
+
+<p> Además de las ventajas de un sistema de vigilancia convencional, usted podrá visualizar y controlar fácilmente todas las cámaras usando un navegador web o nuestro software de administración de vigilancia desde cualquier computadora con conexión a Internet. </p>
+<p> Vigile su negocio <br>
+                    Un sistema de vigilancia es un componente esencial de la gestión de sus operaciones de negocio. Sirve para disuadir de los robos internos y externos, aporta visibilidad de las actividades de los empleados, y lo convierte en un ambiente de trabajo seguro, proporcionando visibilidad a distancia de los lugares de trabajo.</p>
+                        
+                <p> Vigile su hogar <br>
+                    Un sistema de vigilancia en el hogar proporciona tranquilidad sobre la seguridad de sus seres queridos y sus bienes. NT ofrece una amplia variedad de productos de cámaras para el interior/exterior del hogar y grabadoras digitales de video.</p>
+            
