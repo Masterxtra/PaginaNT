@@ -55,6 +55,24 @@ p {
 .centrar-texto {
     text-align: center;
 }
+/** Boton Arriba **/
+.simplescrollup__button {
+    position: fixed;
+    bottom: 1rem;
+    right: 2rem;
+    transition: 1s all;
+    z-index: 10000;
+}
+.simplescrollup__button--show {
+    transform: translateX(0);
+}
+.simplescrollup__button--hide {
+    transform: translateX(100px);
+}
+.fa-arrow-alt-circle-up {
+    font-size: 3rem;
+    color: #009cff;
+}
 /** Botones **/
 .boton {
     color: #ffffff;
