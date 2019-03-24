@@ -73,6 +73,9 @@ p {
     font-size: 3rem;
     color: #009cff;
 }
+.fa-arrow-alt-circle-up:hover {
+    color: #333;  
+}
 /** Botones **/
 .boton {
     color: #ffffff;
@@ -95,7 +98,7 @@ p {
 }
 /** Header **/
 .site-header.inicio {
-    background-image: url(../img/header.jpg);
+    background-image: url(../img/header2.jpg);
     height: 80vh;  /* Maximo tamano */
     min-height: 60rem; /* Minimo tamano */
     background-position: center center; /* Centra imagen desde el centro hacia afuera    */
