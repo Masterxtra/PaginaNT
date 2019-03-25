@@ -145,15 +145,19 @@ p {
     padding-top: 3rem;
 }
 .icono {
-    flex-basis: calc(33.3% - 1rem);
+    flex-basis: calc(33.3% - 1.2rem);
     text-align: center;
+    transition: all .3s ease;
 }
 .icono h3 {
     line-height: 1;
     margin: 0;
 }
 .icono:hover {
-    box-shadow: 5px 7px 9px -3px rgba(0, 156, 255, 0.5);
+    transform: scale(1.05);
+    border: 1px solid #009cff;;
+    /* box-shadow: 5px 7px 9px -3px rgba(0, 156, 255, 0.5); */
+    box-shadow: 0px 0px 40px rgba(0, 156, 255, 0.5);
     cursor: pointer;
 }
 /** Experiencia **/
