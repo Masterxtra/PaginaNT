@@ -201,6 +201,10 @@ p {
     padding-top: 1.2rem;
 }
 
+.icono-planes i:hover {
+    color: #333;
+}
+
 .icono-planes:hover {
     color: #333;
     background: #80808017;
@@ -214,14 +218,15 @@ p {
 /** Plan Hogar **/
 
 .hogar {
-    background-color: #ad4921;
+    background-color: #f50d39;
     width: 70%;
     display: inline-block;
 }
 
-.hogar h3 {
+.hogar>h3 {
     margin: 0;
     font-weight: 400;
+    color: #333;
 }
 
 .planes-hogar {
@@ -235,6 +240,10 @@ p {
     transition: all .3s ease;
 }
 
+.tipos-hogar h3 {
+    font-weight: 900;
+}
+
 .tipos-hogar ul {
     margin: 0;
     padding: 0;
@@ -243,21 +252,30 @@ p {
 .tipos-hogar ul li {
     display: block;
     text-decoration: none;
+    font-weight: 900;
+    font-size: 2.5rem;
+    color: #ffffff;
 }
 
 .h-basic {
-    background-image: url(../img/home-basic.jpg);
+    background-image: url(../img/home-basic1.jpg);
     background-position: center;
     /* Centra imagen desde el centro hacia afuera    */
     background-size: cover;
+    position: relative;
     /* distribuye toda la imagen  */
 }
 
+.tipos-hogar {
+    filter: brightness(0.8) contrast(.70);
+    -webkit-transition: 0.3s linear;
+    transition: 0.3s linear;
+}
+
 .tipos-hogar:hover {
-    /* background-image: url(../img/logo.svg); */
-    mix-blend-mode: multiply;    /* background-position-x: 10px;
-    -webkit-filter: saturate(150%) hue-rotate(45deg) blur(1px);
-    filter: saturate(150%) hue-rotate(45deg) blur(1px); */
+    filter: hue-rotate(0deg);
+    -webkit-transform: scale(1.03);
+    transform: scale(1.03);
 }
 
 .h-premium {
@@ -270,7 +288,7 @@ p {
 
 .h-pro {
     background-image: url(../img/home-pro.jpg);
-    background-position: center;
+    background-position:center center;
     /* Centra imagen desde el centro hacia afuera    */
     background-size: cover;
     /* distribuye toda la imagen  */
