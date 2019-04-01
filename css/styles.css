@@ -288,7 +288,7 @@ p {
 
 .h-pro {
     background-image: url(../img/home-pro.jpg);
-    background-position:center center;
+    background-position: center center;
     /* Centra imagen desde el centro hacia afuera    */
     background-size: cover;
     /* distribuye toda la imagen  */
