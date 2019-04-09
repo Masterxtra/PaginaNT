@@ -174,7 +174,7 @@ p {
 #myCarousel {
   height: 100vh;
   width: 100%;
-} 
+}
 
 #myCarousel img {
   height: 100vh;
@@ -183,24 +183,15 @@ p {
   /* Centra imagen desde el centro hacia afuera    */
   /* background-size: cover;  */
 }
-.carousel-inner {
-  position: relative;
-  display: flex;
-  height: 100vh;
-}
 
-.carousel-item {
-  position: relative;
-  overflow: hidden;
-}
 .carousel-item::before {
-  content: '';
+  content: "";
   position: absolute;
   top: -20px;
   left: -20px;
   right: -20px;
   bottom: -20px;
-  background-color:rgba(0,0,0,.4); 
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 /* https://www.techgeekpr.com/wp-content/uploads/2016/11/slide-2-2.jpg */
@@ -256,7 +247,8 @@ p {
 
 .hogar {
   background-color: #f50d39;
-  width: 70%;
+  height: 500px;
+  width: 900px;
   display: inline-block;
 }
 
@@ -267,18 +259,40 @@ p {
 }
 
 .planes-hogar {
+  position: relative;
   display: flex;
   justify-content: space-between;
-  height: 40rem;
+  height: 92%;
 }
 
 .tipos-hogar {
+  position: relative;
   flex-basis: calc(33.3%);
   transition: all 0.3s ease;
 }
 
+#capaTransparente {
+  position: relative;
+  width: 100%;
+  z-index: 1;
+  height: 100%;
+  background-color: rgba(8, 10, 114, 0.3);
+}
+
+#capaTransparente:hover {
+  background-color: rgba(155, 21, 21, 0.2);
+}
+
+.tipos-hogar:hover {
+  transition: 0.3s linear;
+  -webkit-transform: scale(1.03);
+  transform: scale(1.03);
+} 
+
 .tipos-hogar h3 {
+  position: relative;
   font-weight: 900;
+  z-index: 2;
 }
 
 .tipos-hogar ul {
@@ -287,6 +301,7 @@ p {
 }
 
 .tipos-hogar ul li {
+  position: relative;
   display: block;
   text-decoration: none;
   font-weight: 900;
@@ -299,20 +314,7 @@ p {
   background-position: center;
   /* Centra imagen desde el centro hacia afuera    */
   background-size: cover;
-  position: relative;
   /* distribuye toda la imagen  */
-}
-
-.tipos-hogar {
-  filter: brightness(0.8) contrast(0.7);
-  -webkit-transition: 0.3s linear;
-  transition: 0.3s linear;
-}
-
-.tipos-hogar:hover {
-  filter: hue-rotate(0deg);
-  -webkit-transform: scale(1.03);
-  transform: scale(1.03);
 }
 
 .h-premium {
