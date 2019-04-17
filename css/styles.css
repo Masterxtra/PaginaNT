@@ -145,16 +145,18 @@ p {
 }
 
 .barra {
+  width: 100%;
   display: flex;
   justify-content: space-between;
-  padding-top: 3rem;
+  padding: 20px;
   /* Margen por dentro */
   align-items: center;
-  position: absolute;
-  width: 90%;
-  z-index: 2;
   /** Alinea Verticalmente **/
+  position: fixed;
+  z-index: 2; 
+  border-bottom:1px solid rgba(215, 215, 230, 0.5);
 }
+
 
 /** Navegacion **/
 
@@ -163,6 +165,9 @@ p {
   text-decoration: none;
   font-size: 1.8rem;
   margin-right: 2rem;
+  padding: 2px 20px;
+  border-radius: 10px;
+  display: inline-block;
 }
 
 .navegacion a:last-of-type {
@@ -170,7 +175,7 @@ p {
 }
 
 .navegacion a:hover {
-  color: #71b100;
+  background: #f50d39;
 }
 /** Carousel **/
 
@@ -243,6 +248,8 @@ p {
 .secundary:hover {
   text-decoration: none;
   color: white;
+  font-size: 2.4rem;
+
 }
 .secundary:active {
   box-shadow: inset 0 0 20px #333;
@@ -316,6 +323,7 @@ p {
   z-index: 1;
   height: 100%;
   background-color: rgba(8, 10, 114, 0.3);
+  
 }
 
 #capaTransparente:hover {
@@ -324,8 +332,8 @@ p {
 
 .tipos-hogar:hover {
   transition: 0.3s linear;
-  -webkit-transform: scale(1.03);
-  transform: scale(1.03);
+  -webkit-transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .tipos-hogar h3 {
