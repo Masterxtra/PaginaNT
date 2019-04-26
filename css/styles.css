@@ -62,10 +62,13 @@ p {
 /** Utilidades **/
 
 .seccion {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 }
-
+#separador {
+  width: 100%;
+  height: 4rem;
+  display: inline-block;
+}
 .fw-300 {
   font-weight: 300;
 }
@@ -73,7 +76,9 @@ p {
 .centrar-texto {
   text-align: center;
 }
-
+.linea-menu {
+  border-bottom: 1px solid #63F163;
+}
 /** Boton Arriba **/
 
 .simplescrollup__button {
@@ -267,6 +272,7 @@ p {
 .icono-planes {
   flex-basis: calc(25% - 2.2rem);
   text-align: center;
+
 }
 
 .icono-planes i {
@@ -281,7 +287,7 @@ p {
 
 .icono-planes:hover {
   color: #333;
-  background: #80808017;
+  background: rgba(173, 180, 182, 0.1);  
 }
 
 .icono-planes h3 {
@@ -337,8 +343,9 @@ p {
 }
 
 .tipos-hogar h3 {
+  padding: 40px;
   position: relative;
-  font-weight: 900;
+  font-weight: 500;
   z-index: 2;
 }
 
@@ -351,7 +358,7 @@ p {
   position: relative;
   display: block;
   text-decoration: none;
-  font-weight: 900;
+  font-weight: 400;
   font-size: 2.5rem;
   color: #ffffff;
 }
