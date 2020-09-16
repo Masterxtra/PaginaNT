@@ -153,7 +153,7 @@ p {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  padding: 20px;
+  padding: 4px;
   /* Margen por dentro */
   align-items: center;
   /** Alinea Verticalmente **/
@@ -244,7 +244,6 @@ p {
 }
 .secundary {
   background-color: transparent;
-
   color: rgb(173, 180, 182);
   box-shadow: inset 0 0 20px #009cff;
 }
@@ -283,7 +282,7 @@ p {
 
 .icono-planes:hover {
   color: #333;
-  background: rgba(173, 180, 182, 0.1);
+  background: rgba(10, 60, 126, 0.1);
 }
 
 .icono-planes h3 {
@@ -295,60 +294,63 @@ p {
 
 .hogar {
   background-color: #f50d39;
-  height: 500px;
-  width: 900px;
+  height: 450px;
+  width: 870px;
+  display: none;  
+}
+.show-hogar {
+  
   display: inline-block;
+  box-shadow: inset 0 0 20px #333;  
+  border-radius: 20px;
 }
 
+.i-f-hogar {
+  background: rgba(221, 17, 126, 0.1);
+}
 .hogar > h3 {
   margin: 0;
   font-weight: 400;
   color: #333;
 }
-
 .planes-hogar {
-  position: relative;
+  
   display: flex;
   justify-content: space-between;
-  height: 92%;
+  height: 92%;  
 }
-
 .tipos-hogar {
   position: relative;
   flex-basis: calc(33.3%);
   transition: all 0.3s ease;
+  border-radius: 10px;
 }
-
 #capaTransparente {
   position: relative;
   width: 100%;
   z-index: 1;
   height: 100%;
   background-color: rgba(8, 10, 114, 0.3);
+  border-radius: 10px;
 }
-
 #capaTransparente:hover {
   background-color: rgba(155, 21, 21, 0.2);
 }
-
 .tipos-hogar:hover {
   transition: 0.3s linear;
   -webkit-transform: scale(1.02);
   transform: scale(1.02);
 }
-
 .tipos-hogar h3 {
   padding: 40px;
   position: relative;
   font-weight: 500;
   z-index: 2;
 }
-
 .tipos-hogar ul {
   margin: 0;
   padding: 0;
 }
-
 .tipos-hogar ul li {
   position: relative;
   display: block;
@@ -359,8 +361,7 @@ p {
 }
 .tipos-hogar ul li p {
   font-size: 1.5rem;
-}  
-
+}
 .h-basic {
   background-image: url(../img/home-basic1.jpg);
   background-position: center;
@@ -368,7 +369,6 @@ p {
   background-size: cover;
   /* distribuye toda la imagen  */
 }
-
 .h-premium {
   background-image: url(../img/home-premium.jpg);
   background-position: center;
@@ -376,7 +376,6 @@ p {
   background-size: cover;
   /* distribuye toda la imagen  */
 }
-
 .h-pro {
   background-image: url(../img/home-pro.jpg);
   background-position: center center;
@@ -388,11 +387,18 @@ p {
 /** Plan Negocio **/
 .negocio {
   background-color: #009cff;
-  height: 500px;
-  width: 900px;
-  display: inline-block;
+  height: 450px;
+  width: 870px;
+  display: none;
+  border-radius: 20px;
 }
-
+.show-negocio {
+  display: inline-block;
+  box-shadow: inset 0 0 20px #333;
+}
+.i-f-negocio {
+  background: rgba(59, 76, 233, 0.1);
+}
 .negocio > h3 {
   margin: 0;
   font-weight: 400;
@@ -401,9 +407,9 @@ p {
 .tipo-negocio h3 {
   color: #f50d39;
 }
-.icono-planes::active{
+.icono-planes::active {
   display: none;
-  color:rgb(83, 48, 167);
+  color: rgb(83, 48, 167);
 }
 /** Sobre Nosotros **/
 

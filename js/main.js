@@ -40,5 +40,27 @@ $(document).ready(function() {
     $('#home').removeClass('linea-menu');
     $('#planes').removeClass('linea-menu');
   })
-  
+   
+  /**Clck en planes Hogar - Negocio */
+  $('.i-hogar').on('click', function() {
+    var position = 880;
+    $('body, html').animate( {
+      scrollTop: position + 'px'
+    }, 2000);
+    $('.hogar').addClass('show-hogar');
+    $('.negocio').removeClass('show-negocio');
+    $('.i-hogar').addClass('i-f-hogar');
+    $('.i-negocio').removeClass('i-f-negocio');
+  })
+
+  $('.i-negocio').on('click', function() {
+    var position = 880;
+    $('body, html').animate( {
+      scrollTop: position + 'px'
+    }, 2000);
+    $('.negocio').addClass('show-negocio');
+    $('.hogar').removeClass('show-hogar');
+    $('.i-negocio').addClass('i-f-negocio');
+    $('.i-hogar').removeClass('i-f-hogar');
+  })
 });
