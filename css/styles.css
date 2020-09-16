@@ -77,7 +77,7 @@ p {
   text-align: center;
 }
 .linea-menu {
-  border-bottom: 1px solid #63F163;
+  border-bottom: 1px solid #63f163;
 }
 /** Boton Arriba **/
 
@@ -158,10 +158,9 @@ p {
   align-items: center;
   /** Alinea Verticalmente **/
   position: fixed;
-  z-index: 2; 
-  border-bottom:1px solid rgba(215, 215, 230, 0.5);
+  z-index: 2;
+  border-bottom: 1px solid rgba(215, 215, 230, 0.5);
 }
-
 
 /** Navegacion **/
 
@@ -229,7 +228,7 @@ p {
 .carousel-caption p {
   font-size: 2.7rem;
 }
-    /** Botones Carousel **/
+/** Botones Carousel **/
 .btn-ghost {
   position: relative;
   display: inline-block;
@@ -242,11 +241,10 @@ p {
   border-radius: 30px;
   font-size: 2.2rem;
   margin-top: 50px;
-  
 }
 .secundary {
   background-color: transparent;
-  
+
   color: rgb(173, 180, 182);
   box-shadow: inset 0 0 20px #009cff;
 }
@@ -254,7 +252,6 @@ p {
   text-decoration: none;
   color: white;
   font-size: 2.4rem;
-
 }
 .secundary:active {
   box-shadow: inset 0 0 20px #333;
@@ -272,7 +269,6 @@ p {
 .icono-planes {
   flex-basis: calc(25% - 2.2rem);
   text-align: center;
-
 }
 
 .icono-planes i {
@@ -287,7 +283,7 @@ p {
 
 .icono-planes:hover {
   color: #333;
-  background: rgba(173, 180, 182, 0.1);  
+  background: rgba(173, 180, 182, 0.1);
 }
 
 .icono-planes h3 {
@@ -329,7 +325,6 @@ p {
   z-index: 1;
   height: 100%;
   background-color: rgba(8, 10, 114, 0.3);
-  
 }
 
 #capaTransparente:hover {
@@ -362,6 +357,9 @@ p {
   font-size: 2.5rem;
   color: #ffffff;
 }
+.tipos-hogar ul li p {
+  font-size: 1.5rem;
+}  
 
 .h-basic {
   background-image: url(../img/home-basic1.jpg);
@@ -387,6 +385,26 @@ p {
   /* distribuye toda la imagen  */
 }
 
+/** Plan Negocio **/
+.negocio {
+  background-color: #009cff;
+  height: 500px;
+  width: 900px;
+  display: inline-block;
+}
+
+.negocio > h3 {
+  margin: 0;
+  font-weight: 400;
+  color: rgb(99, 30, 99);
+}
+.tipo-negocio h3 {
+  color: #f50d39;
+}
+.icono-planes::active{
+  display: none;
+  color:rgb(83, 48, 167);
+}
 /** Sobre Nosotros **/
 
 .icono img {
