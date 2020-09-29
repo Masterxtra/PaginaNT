@@ -257,54 +257,49 @@ p {
 }
 
 /** Planes **/
-
 .planes {
   display: flex;
   justify-content: center;
   margin: 3rem;
   cursor: pointer;
 }
-
 .icono-planes {
   flex-basis: calc(25% - 2.2rem);
   text-align: center;
 }
-
 .icono-planes i {
   font-size: 6rem;
   color: #f50d39;
   padding-top: 1.2rem;
 }
-
 .icono-planes i:hover {
   color: #333;
 }
-
 .icono-planes:hover {
   color: #333;
   background: rgba(10, 60, 126, 0.1);
 }
-
 .icono-planes h3 {
   color: #333;
   margin: 0;
 }
+.icono-planes::active {
+  display: none;
+  color: rgb(83, 48, 167);
+}
 
 /** Plan Hogar **/
-
 .hogar {
   background-color: #f50d39;
   height: 450px;
   width: 870px;
-  display: none;  
+  display: none;
 }
 .show-hogar {
-  
   display: inline-block;
-  box-shadow: inset 0 0 20px #333;  
+  box-shadow: inset 0 0 20px #333;
   border-radius: 20px;
 }
-
 .i-f-hogar {
   background: rgba(221, 17, 126, 0.1);
 }
@@ -314,10 +309,9 @@ p {
   color: #333;
 }
 .planes-hogar {
-  
   display: flex;
   justify-content: space-between;
-  height: 92%;  
+  height: 92%;
 }
 .tipos-hogar {
   position: relative;
@@ -407,10 +401,10 @@ p {
 .tipo-negocio h3 {
   color: #f50d39;
 }
-.icono-planes::active {
-  display: none;
-  color: rgb(83, 48, 167);
+.tipo-negocio ul li p{
+  font-size: 1.5rem;
 }
+  
 /** Sobre Nosotros **/
 
 .icono img {
