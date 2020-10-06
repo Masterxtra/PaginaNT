@@ -8,6 +8,7 @@ html {
 *:before,
 *:after {
   box-sizing: inherit;
+  list-style: none;
 }
 
 body {
@@ -135,6 +136,7 @@ p {
 
 .contenido-header {
   height: 100%;
+
   /** Ocupa todo el espacio del contenedor**/
   display: flex;
   /** Alineamos verticalmente los elemenos**/
@@ -151,7 +153,7 @@ p {
 
 .barra {
   width: 100%;
-  display: flex;
+  display: inline-flex;
   justify-content: space-between;
   padding: 4px;
   /* Margen por dentro */
@@ -163,7 +165,6 @@ p {
 }
 
 /** Navegacion **/
-
 .navegacion a {
   color: white;
   text-decoration: none;
@@ -171,23 +172,35 @@ p {
   margin-right: 2rem;
   padding: 2px 20px;
   border-radius: 10px;
-  display: inline-block;
+  display: inline;
 }
-
 .navegacion a:last-of-type {
   margin: 0;
 }
-
 .navegacion a:hover {
   background: #f50d39;
 }
+#cliente {
+  cursor: pointer;
+  color: white;
+}
+.sub-menu {
+  position: relative;
+  display: none;
+  }
+.sub-menu li a {
+  font-size: 1.4rem;
+}
+.sub-menu li a:hover {
+  background: rgb(73, 74, 107);
+}
+
 /** Carousel **/
 
 #myCarousel {
   height: 100vh;
   width: 100%;
 }
-
 #myCarousel img {
   height: 100vh;
   width: 100%;
@@ -195,14 +208,12 @@ p {
   /* Centra imagen desde el centro hacia afuera    */
   background-size: cover;
 }
-
 .carousel-indicators li {
   border-radius: 100%;
   width: 12px;
   height: 12px;
   background-color: #f50d39;
 }
-
 .carousel-item::before {
   content: "";
   position: absolute;
@@ -217,17 +228,16 @@ p {
 .carousel-caption {
   top: 30%;
 }
-
 .carousel-caption h2 {
   font-size: 7rem;
   font-weight: bold;
   letter-spacing: -4px;
   color: white;
 }
-
 .carousel-caption p {
   font-size: 2.7rem;
 }
+
 /** Botones Carousel **/
 .btn-ghost {
   position: relative;
@@ -401,10 +411,10 @@ p {
 .tipo-negocio h3 {
   color: #f50d39;
 }
-.tipo-negocio ul li p{
+.tipo-negocio ul li p {
   font-size: 1.5rem;
 }
-  
+
 /** Sobre Nosotros **/
 
 .icono img {
