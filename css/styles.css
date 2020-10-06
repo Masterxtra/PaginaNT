@@ -183,14 +183,14 @@ p {
 /** Menu flotante cliente **/
 .menu-dinamico::after {
   content: "";
-  background: #009cff;
   display: inline-block; 
-  width: 160px;
-  height: 100px;
+  width: 140px;
+  height: 90px;
   position: absolute;
-  right: 5px;
-  z-index: 999;
+  right: 30px;
+  top: 40px;
   display: block;
+  z-index: -1;
 }
 
 #cliente {
@@ -199,7 +199,7 @@ p {
 }
 .sub-menu {
   position: relative;
-  display: block;
+  display: none;
   }
 .sub-menu li a {
   font-size: 1.4rem;

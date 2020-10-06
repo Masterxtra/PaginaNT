@@ -60,16 +60,21 @@ $(document).ready(function () {
   })
 
   //$("#cliente").click(function (e) { */
-  $(".menu-dinamico").on("mouseenter mouseleave", function () {
+  $("#cliente").on("click ", function () {
     // Resetear, por si acaso has estado jugando con la otra propiedad
     $(".sub-menu").css("visibility", "visible");
-    $(".sub-menu").css("left", "420px");
+    $(".sub-menu").css("left", "440px");
     if ($(".sub-menu").is(":visible")) {
       $(".sub-menu").css("display", "none");
     } else {
       $(".sub-menu").css("display", "block");
     }
   });
+
+  $('.menu-dinamico').on('mouseenter', function() {  
+      $(".sub-menu").css("display", "none");
+  });
+  
 
   /**Clck en planes Hogar - Negocio */
   $(".i-hogar").on("click", function () {
