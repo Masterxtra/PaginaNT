@@ -52,19 +52,18 @@ $(document).ready(function () {
     $("#planes").removeClass("linea-menu");
     $("#cliente").removeClass("linea-menu");
   });
-  /**$('#cliente').on('mouseenter mouseleave', function() {  
+  /*
+  $('.menu-dinamico').on('mouseenter mouseleave', function() {  
     $('.sub-menu').addClass('show-menu');
     $('#home').removeClass('sub-menu');
     $('#planes').removeClass('linea-menu');
-  })**/
+  })
 
-  //$("#cliente").click(function (e) {
-  $("#cliente").on("click", function () {
+  //$("#cliente").click(function (e) { */
+  $(".menu-dinamico").on("mouseenter mouseleave", function () {
     // Resetear, por si acaso has estado jugando con la otra propiedad
     $(".sub-menu").css("visibility", "visible");
-
     $(".sub-menu").css("left", "420px");
-
     if ($(".sub-menu").is(":visible")) {
       $(".sub-menu").css("display", "none");
     } else {

@@ -180,16 +180,30 @@ p {
 .navegacion a:hover {
   background: #f50d39;
 }
+/** Menu flotante cliente **/
+.menu-dinamico::after {
+  content: "";
+  background: #009cff;
+  display: inline-block; 
+  width: 160px;
+  height: 100px;
+  position: absolute;
+  right: 5px;
+  z-index: 999;
+  display: block;
+}
+
 #cliente {
   cursor: pointer;
   color: white;
 }
 .sub-menu {
   position: relative;
-  display: none;
+  display: block;
   }
 .sub-menu li a {
   font-size: 1.4rem;
+
 }
 .sub-menu li a:hover {
   background: rgb(73, 74, 107);
