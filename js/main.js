@@ -60,22 +60,26 @@ $(document).ready(function () {
   })
 
   //$("#cliente").click(function (e) { */
-  $("#cliente").on("click ", function () {
+  $("#cliente").on("mouseenter mouseover ", function () {
     // Resetear, por si acaso has estado jugando con la otra propiedad
-    $(".sub-menu").css("visibility", "visible");
-    $(".sub-menu").css("left", "440px");
-    if ($(".sub-menu").is(":visible")) {
-      $(".sub-menu").css("display", "none");
+    $(".sub-menu").css("display", "block");
+    $(".sub-menu").css("visibility", "visible"); 
+    $(".sub-menu").css("left", "400px");
+    $(".sub-menu").css("position", "relative");
+    $(".sub-menu").css("z-index", "1");
+    if ($(".sub-menu").is(":hidden")) {
+      $('.sub-menu').on('mouseenter mouseleave', function() {  
+        $(".sub-menu").css("display", "block");
+        $(".sub-menu").css("visibility", "visible");    
+    });
     } else {
-      $(".sub-menu").css("display", "block");
+      $('.sub-menu').on('mouseleave ', function() {  
+        $(".sub-menu").css("display", "none");
+        $(".sub-menu").css("visibility", "hidden");    
+    })
     }
   });
-
-  $('.menu-dinamico').on('mouseenter', function() {  
-      $(".sub-menu").css("display", "none");
-  });
   
-
   /**Clck en planes Hogar - Negocio */
   $(".i-hogar").on("click", function () {
     var position = 880;

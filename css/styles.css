@@ -181,17 +181,12 @@ p {
   background: #f50d39;
 }
 /** Menu flotante cliente **/
-.menu-dinamico::after {
+/** .menu-dinamico::after {
   content: "";
   display: inline-block; 
-  width: 140px;
-  height: 90px;
-  position: absolute;
-  right: 30px;
-  top: 40px;
   display: block;
   z-index: -1;
-}
+} **/
 
 #cliente {
   cursor: pointer;
@@ -206,7 +201,7 @@ p {
 
 }
 .sub-menu li a:hover {
-  background: rgb(73, 74, 107);
+  background: rgb(134, 166, 235);
 }
 
 /** Carousel **/
