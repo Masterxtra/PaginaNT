@@ -60,7 +60,7 @@ $(document).ready(function () {
   })
 
   //$("#cliente").click(function (e) { */
-  $("#cliente").on("mouseenter mouseover ", function () {
+/*   $("#cliente").on("mouseenter mouseover ", function () {
     // Resetear, por si acaso has estado jugando con la otra propiedad
     $(".sub-menu").css("display", "block");
     $(".sub-menu").css("visibility", "visible"); 
@@ -78,7 +78,7 @@ $(document).ready(function () {
         $(".sub-menu").css("visibility", "hidden");    
     })
     }
-  });
+  }); **/
   
   /**Clck en planes Hogar - Negocio */
   $(".i-hogar").on("click", function () {

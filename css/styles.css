@@ -1,3 +1,7 @@
+
+
+
+
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -12,8 +16,8 @@ html {
 }
 
 body {
-  font-family: "Lato", sans-serif;
   font-size: 1.6rem;
+  font-family: "Lato", sans-serif;
   line-height: 2;
 }
 
@@ -133,10 +137,8 @@ p {
 }
 
 /** Header **/
-
 .contenido-header {
   height: 100%;
-
   /** Ocupa todo el espacio del contenedor**/
   display: flex;
   /** Alineamos verticalmente los elemenos**/
@@ -144,20 +146,17 @@ p {
   /** Cambiamos direccion del flex**/
   justify-content: space-between;
 }
-
 .contenido-header h1 {
   color: #333;
   padding-bottom: 2rem;
   max-width: 50rem;
 }
 
+/** Barra**/
 .barra {
   width: 100%;
-  display: inline-flex;
-  justify-content: space-between;
-  padding: 4px;
+
   /* Margen por dentro */
-  align-items: center;
   /** Alinea Verticalmente **/
   position: fixed;
   z-index: 2;
@@ -169,17 +168,41 @@ p {
   color: white;
   text-decoration: none;
   font-size: 1.8rem;
-  margin-right: 2rem;
-  padding: 2px 20px;
+  padding: 2px 40px;
   border-radius: 10px;
-  display: inline;
-}
-.navegacion a:last-of-type {
-  margin: 0;
 }
 .navegacion a:hover {
   background: #f50d39;
 }
+.navegacion ul {
+  display: flex;
+  justify-content: flex-end;
+}
+.navegacion ul li {
+  list-style: none;
+  position: relative;
+  transition: 0.5s;
+}
+.navegacion ul li ul {
+  position: absolute;
+  display: inline-block;
+  top: 45px;
+  left: 0;
+  transition: 0, 5s;
+  opacity: 0;
+  visibility: hidden;
+}
+.navegacion ul li {
+  color: white;
+}
+.navegacion ul li:hover ul {
+  opacity: 1;
+  visibility: visible;
+}
+.navegacion ul li ul li a {
+  color: #009cff;
+}
+
 /** Menu flotante cliente **/
 /** .menu-dinamico::after {
   content: "";
@@ -188,7 +211,7 @@ p {
   z-index: -1;
 } **/
 
-#cliente {
+/**#cliente {
   cursor: pointer;
   color: white;
 }
@@ -202,7 +225,7 @@ p {
 }
 .sub-menu li a:hover {
   background: rgb(134, 166, 235);
-}
+}**/
 
 /** Carousel **/
 
