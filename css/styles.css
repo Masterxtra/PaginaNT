@@ -1,7 +1,3 @@
-
-
-
-
 html {
   box-sizing: border-box;
   font-size: 62.5%;
@@ -154,78 +150,63 @@ p {
 
 /** Barra**/
 .barra {
-  width: 100%;
-
   /* Margen por dentro */
   /** Alinea Verticalmente **/
   position: fixed;
+  width: 100%;
   z-index: 2;
   border-bottom: 1px solid rgba(215, 215, 230, 0.5);
 }
+.barra img {
+  float: left;
+  width: 80px;
+}
 
 /** Navegacion **/
-.navegacion a {
-  color: white;
-  text-decoration: none;
-  font-size: 1.8rem;
-  padding: 2px 40px;
-  border-radius: 10px;
-}
-.navegacion a:hover {
-  background: #f50d39;
+.navegacion {
+  position: relative;
+  float: right;
 }
 .navegacion ul {
+  margin: 20px 0 0 0;
+  padding: 0;
   display: flex;
-  justify-content: flex-end;
-}
-.navegacion ul li {
-  list-style: none;
-  position: relative;
-  transition: 0.5s;
-}
-.navegacion ul li ul {
-  position: absolute;
-  display: inline-block;
-  top: 45px;
-  left: 0;
-  transition: 0, 5s;
-  opacity: 0;
-  visibility: hidden;
 }
 .navegacion ul li {
   color: white;
+}
+.navegacion ul li a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 1.8rem;
+  padding: 3px 20px;
+  border-radius: 10px;
+}
+.navegacion ul li a:hover {
+  background: #f50d39;
+}
+.navegacion ul li ul {
+  display: block;
+  min-width: 180px;
+  position: absolute;
+  margin-top: -6px;
+  transition: 0.5s;
+  transform: translateY(30px);
+  opacity: 0;
+  padding: 10px 0;
+  visibility: hidden;
+  text-align: center;
 }
 .navegacion ul li:hover ul {
   opacity: 1;
   visibility: visible;
+  transform: translateY(0px);
 }
 .navegacion ul li ul li a {
-  color: #009cff;
+  font-size: 1.5rem;
+  background: rgba(8, 10, 114, 0.5);
 }
-
-/** Menu flotante cliente **/
-/** .menu-dinamico::after {
-  content: "";
-  display: inline-block; 
-  display: block;
-  z-index: -1;
-} **/
-
-/**#cliente {
-  cursor: pointer;
-  color: white;
-}
-.sub-menu {
-  position: relative;
-  display: none;
-  }
-.sub-menu li a {
-  font-size: 1.4rem;
-
-}
-.sub-menu li a:hover {
-  background: rgb(134, 166, 235);
-}**/
 
 /** Carousel **/
 
